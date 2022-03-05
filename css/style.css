@@ -9794,7 +9794,7 @@ footer {
 }
 
 i:hover {
-  color: #f07e64;
+  color: #fff;
 }
 
 .a-btn:hover {
@@ -9978,6 +9978,7 @@ a {
 
 .home-projects__about {
   margin: 30px 0;
+  font-style: italic;
 }
 
 .home-projects__tx-card {
@@ -9997,7 +9998,7 @@ a {
 }
 
 .home-projects__tx-card .card-text span {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   font-weight: 600;
 }
 
@@ -10043,6 +10044,9 @@ a {
 @media (min-width: 768px) {
   .home-intro h1, .home-intro .h1 {
     line-height: 4rem;
+  }
+  .card__tx-card .card-text span {
+    font-size: 2.5rem;
   }
 }
 
