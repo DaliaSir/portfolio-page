@@ -1,0 +1,87 @@
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
+.card {
+  border: 0px;
+}
+
+/*----FOOTER-----*/
+
+footer {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $color-secondary;
+  text-align: center;
+}
+
+.footer-contact {
+  padding: 40px 20px;
+  h3 {
+    font-weight: 600;
+  }
+  p {
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+  }
+  a {
+    color: $body-color;
+    font-weight: 500;
+  }
+  &__icons i {
+    font-size: 2rem;
+    padding: 10px;
+  }
+}
+
+.footer-copy {
+  background-color: $body-color;
+  color: $white;
+  width: 100%;
+  text-align: center;
+  padding-top: 16px;
+}
+
+i:hover {
+  color: $color-primary;
+}
+
+.a-btn {
+  &:hover {
+    background-color: $color-primary;
+    color: $white;
+  }
+  &:active {
+    transform: translateY(2px);
+    transition: 0.2s;
+  }
+}
+
+.a-btn-rev {
+  &:hover {
+    background-color: transparent;
+    color: $body-color;
+  }
+  &:active {
+    transform: translateY(2px);
+    transition: 0.2s;
+  }
+}
