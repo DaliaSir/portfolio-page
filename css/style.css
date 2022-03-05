@@ -10032,8 +10032,7 @@ a {
 .home-skills .card {
   border: 3px solid #222420;
   border-radius: 0.2rem;
-  height: 120px;
-  margin-bottom: 24px;
+  height: 100%;
 }
 
 .home-skills .card span {
