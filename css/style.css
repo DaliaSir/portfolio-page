@@ -10480,16 +10480,13 @@ a {
   .details-images__mob-recycle {
     background-image: url("../images/recycle/recycle-mob.jpg");
   }
+  .details-images__desk-img1, .details-images__desk-img2, .details-images__desk-img3 {
+    width: 200px;
+  }
   .details-tx__tools--graphic-icons img,
   .details-tx__tools--coding-icons img {
     height: 38px;
     margin: 5px;
-  }
-}
-
-@media (min-width: 768px) {
-  .details-images__desk-img1, .details-images__desk-img2, .details-images__desk-img3 {
-    width: 200px;
   }
 }
 

@@ -1,6 +1,19 @@
+//colours
+
 $color-primary: #f07e64;
 $color-secondary: #f8b190;
 $color-secondary-light: #ffdbbb;
 $color-accent: #ef452c;
-
 $body-color: #222420;
+
+//bootstrap breakpoints
+
+$bootstrap-sm: 576px;
+$bootstrap-md: 768px;
+$bootstrap-lg: 992px;
+$bootstrap-xl: 1200px;
+
+//fonts
+
+$font-primary: "Open Sans", "Segoe UI", "Helvetica Neue", "Arial", sans-serif;
+$font-headings: "Montserrat", "Segoe UI", "Helvetica Neue", "Arial", sans-serif;

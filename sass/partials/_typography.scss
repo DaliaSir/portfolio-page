@@ -1,12 +1,12 @@
 body {
-  font-family: "Open Sans", "Segoe UI", "Helvetica Neue", "Arial", sans-serif;
+  font-family: $font-primary;
   line-height: 1.619rem;
 }
 
 h1,
 h2,
 h3 {
-  font-family: "Montserrat", "Segoe UI", "Helvetica Neue", "Arial", sans-serif;
+  font-family: $font-headings;
   text-transform: uppercase;
 }
 
@@ -26,21 +26,19 @@ a {
   text-decoration: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $bootstrap-md) {
   h1 {
     font-size: 3.125rem;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: $bootstrap-lg) {
   h1 {
     font-size: 4rem;
   }
-
   h2 {
     font-size: 2.5rem;
   }
-
   h3 {
     font-size: 1.5rem;
   }

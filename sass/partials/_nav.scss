@@ -20,13 +20,11 @@
   color: $body-color;
   font-family: "Montserrat", "Segoe UI", "Helvetica Neue", "Arial", sans-serif;
   font-weight: 500;
-
   &:hover {
     transform: translateY(1.5px);
     opacity: 0.8;
     transition: 0.2s;
   }
-
   span {
     color: $color-accent;
     font-weight: 600;
@@ -37,7 +35,7 @@
   border: none;
 }
 
-@media (min-width: 992px) {
+@media (min-width: $bootstrap-lg) {
   .nav-item a {
     margin-right: 20px;
   }
