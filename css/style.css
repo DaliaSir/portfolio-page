@@ -9867,6 +9867,7 @@ a {
 
 .nav-item a {
   color: #222420;
+  margin-bottom: 10px;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -9875,7 +9876,7 @@ a {
 
 .active {
   font-weight: 500;
-  text-decoration: underline;
+  border-bottom: 1px solid #222420;
 }
 
 .navbar-brand {
@@ -9897,6 +9898,12 @@ a {
 
 .navbar-toggler {
   border: none;
+}
+
+@media (min-width: 992px) {
+  .nav-item a {
+    margin-right: 20px;
+  }
 }
 
 .home-intro {
